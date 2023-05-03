@@ -1,6 +1,6 @@
-[template]
-version = main
+[package]
 script_dir = scripts
+description = Script to update CC field with locally defined locality information
 
 [input localnetdef.db]
 summary=A table of subnets and names
