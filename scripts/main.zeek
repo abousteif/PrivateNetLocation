@@ -12,10 +12,10 @@ type Val: record {
     };
 
 global privnet: table[subnet] of Val = table();
-redef record Conn::Info += {
-    orig_cc:string &log &optional; 
-    resp_cc:string &log &optional;
-    };
+#redef record Conn::Info += {
+#    orig_cc:string &log &optional; 
+#    resp_cc:string &log &optional;
+#    };
 
 # label what we can
 event connection_state_remove(c: connection)
