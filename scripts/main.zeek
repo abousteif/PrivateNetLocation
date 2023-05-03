@@ -1,6 +1,6 @@
 #Scripts to use when you want to enrich conn log with location information for RFC1918 networks 
 #For Network locations, upload a file to the input framework of the sensor called localnetdef.db to assign addresses to names
-#the format shoudl be like this #fields	localnet	name<carriagereturn>192.168.2.0/24<fieldsneedtobetabbed>Washington and so on
+#the format should be like this #fields<tab>localnet<tab>name<carriagereturn>192.168.2.0/24<tab>Washington and so on
 
 module THETAD;
 
