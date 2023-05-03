@@ -1,3 +1,7 @@
 [template]
 version = main
 script_dir = scripts
+
+[input localnetdef.db]
+summary=A table of subnets and names
+description=A table mapping subnets to their names
